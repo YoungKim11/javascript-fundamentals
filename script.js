@@ -52,17 +52,56 @@
 // console.log(yearsToRetire(1991, 'Darrick Robarge'));
 // console.log(yearsToRetire(1998, 'Jadaine Fraser'));
 
-function cutFruitPieces(fruit) {
-    return fruit * 4;
+// function cutFruitPieces(fruit) {
+//     return fruit * 4;
+// }
+
+// function juiceMaker(apples, oranges) {
+//     const applePieces = cutFruitPieces(apples);
+//     const orangePieces = cutFruitPieces(oranges);
+//     const juice = `Juice with ${applePieces} apples and ${orangePieces} oranges`;
+//     return juice;
+// }
+
+// console.log(juiceMaker(2, 3));
+// const calcAge = function(birthYear) {
+//     return 2023 - birthYear;
+// }
+
+// const yearsToRetire = function (birthYear, fullName) {
+//     const age = calcAge(birthYear);
+//     const retirement = 65 - age;
+//     if (retirement > 0) {
+//         console.log(`${fullName} retires in ${retirement} years.`);
+//         return retirement
+//     } else {
+//         console.log(`${fullName} has already retired.`);
+//         return -1;
+//     }
+// }
+
+
+
+// console.log(yearsToRetire(1991, 'Darrick Robarge'));
+// console.log(yearsToRetire(1955, 'Mami'));
+
+function add7(number) {
+    return number + 7;
+};
+
+function multiply(number, multiply) {
+    return number * multiply;
+};
+
+function capitalize(name) {
+    return name[0].toUpperCase() + name.slice(1).toLowerCase();
+};
+
+function lastLetter(letter) {
+    return letter.charAt(letter.length - 1).toLowerCase();
 }
 
-function juiceMaker(apples, oranges) {
-    const applePieces = cutFruitPieces(apples);
-    const orangePieces = cutFruitPieces(oranges);
-    const juice = `Juice with ${applePieces} apples and ${orangePieces} oranges`;
-    return juice;
-}
-
-console.log(juiceMaker(2, 3));
-
-
+console.log(lastLetter("ABCD"));
+console.log(capitalize("dArrIck"));
+console.log(add7(7));
+console.log(multiply(10, 7));
