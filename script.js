@@ -85,23 +85,24 @@
 // console.log(yearsToRetire(1991, 'Darrick Robarge'));
 // console.log(yearsToRetire(1955, 'Mami'));
 
-function add7(number) {
-    return number + 7;
-};
+// function add7(number) {
+//     return number + 7;
+// };
 
-function multiply(number, multiply) {
-    return number * multiply;
-};
+// function multiply(number, multiply) {
+//     return number * multiply;
+// };
 
-function capitalize(name) {
-    return name[0].toUpperCase() + name.slice(1).toLowerCase();
-};
+// function capitalize(name) {
+//     return name[0].toUpperCase() + name.slice(1).toLowerCase();
+// };
 
-function lastLetter(letter) {
-    return letter.charAt(letter.length - 1).toLowerCase();
-}
+// function lastLetter(letter) {
+//     return letter.charAt(letter.length - 1).toLowerCase();
+// }
 
-console.log(lastLetter("ABCD"));
-console.log(capitalize("dArrIck"));
-console.log(add7(7));
-console.log(multiply(10, 7));
+// console.log(lastLetter("ABCD"));
+// console.log(capitalize("dArrIck"));
+// console.log(add7(7));
+// console.log(multiply(10, 7));
+
